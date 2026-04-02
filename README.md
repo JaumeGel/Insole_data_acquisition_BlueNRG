@@ -1,4 +1,4 @@
-# BLE SensorBoard (BlueNRG-1/2)
+# BLE SensorBoard (BlueNRG-M2SA)
 
 ## Overview
 
