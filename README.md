@@ -52,12 +52,6 @@ Note: UUID changes are hardcoded in firmware and require device reprogramming.
 2. Configure target for BlueNRG-2, already configured.
 3. Build and flash using existing `Release/makefile` or IDE generated project.
 
-## Troubleshooting
-
-- Verify BLE address write (`aci_hal_write_config_data`) is successful
-- Confirm that only one service property group is added in `gatt_db.c`
-- Use UART debug prints (`PRINTF`) with `DEBUG=1` to inspect boot and connection sequence
-
 ## Notes
 
 - This README has been generated with the assistance of an AI (GitHub Copilot style). 
@@ -66,4 +60,11 @@ Note: UUID changes are hardcoded in firmware and require device reprogramming.
 
 ### Version
 
-Project derived from ST BlueNRG-1 SensorDemo (2018) and updated in this workspace.
+Project derived from ST BlueNRG-1 SensorDemo (2018) and updated in this workspace (2026).
+
+---
+
+## Contact
+
+Author: JaumeGel  
+Repository: https://github.com/JaumeGel/Insole_data_acquisition_BlueNRG
